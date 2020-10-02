@@ -22,8 +22,8 @@ norm_df <- scale(df)
 # Clustering - Euclidean Distance
 library(dplyr)
 df.dist <- dist(norm_df,method="euclidean") %>% as.matrix()
-df.dist %>% sort(1,decreasing = F)
-head(df.dist)
+el_recommend <- df.dist %>% sort(1,decreasing = F)
+
 # Clustering - Kmeans
 library(factoextra)
 set.seed(1234)
