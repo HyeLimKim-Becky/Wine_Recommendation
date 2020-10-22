@@ -6,6 +6,6 @@ There are 2 different methods to suggest wine based on customers’ purchase typ
 2. Customers will take an adventure and purchase new items.
 
 And by using R, the following will be the conclusion.
-Conclusion
+
 1) Use ‘Euclidean Distance’ to recommend similar wine.
 2) Use either ‘Kmeans’ or ‘Hierarchial clustering’ to recommend different type of wine.
